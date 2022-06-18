@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.nav{
+    background-color: burlywood;
+    height: 40px;
+    display: flex;
+}
+
+.nav button{
+    margin-top: 5px;
+    border: 1px solid white;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(179, 100%, 13%);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+h3{
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: x-large;
+}
+
+.left-container button{
+    margin-top: 50px;
+    border: 2px solid white;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(31, 77%, 52%);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 30px;
+}
+
+.left-container button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+
+.left-container{
+    background-color: hsl(31, 77%, 52%);
+    border: 1px;
+    padding: 4em;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.left-container h3{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.left-container p{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    padding-bottom: 7px;
+    
+}
+
+.sedan-icon{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.middle-container{
+    background-color: hsl(184, 100%, 22%);
+    border: 1px;
+    padding: 4em;
+}
+
+.middle-container h3{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.middle-container p{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    padding-bottom: 7px;
+    
+}
+
+.middle-container button{
+    margin-top: 50px;
+    border: 2px solid white;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(184, 100%, 22%);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 30px;
+}
+
+.middle-container button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+
+.suv-icon{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.right-container{
+    background-color: hsl(179, 100%, 13%);
+    border: 1px;
+    padding: 4em;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+
+.right-container h3{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.right-container p{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    padding-bottom: 7px;
+    
+}
+
+.right-container button{
+    margin-top: 50px;
+    border: 2px solid white;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(179, 100%, 13%);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 30px;
+}
+
+.right-container button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
+
+.luxury-icon{
+    background-color: hsl(179, 100%, 13%);
+}
